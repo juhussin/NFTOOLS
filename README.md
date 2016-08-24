@@ -76,21 +76,21 @@ Mandatory argument (1):
  file.ped : the 6 first columns of ped files are mandatory (see http://pngu.mgh.harvard.edu/~purcell/plink/data.shtml#ped), all delimited by tab characters. If generated with PLINK, use the --tab option in PLINK.  
 
 Options :  
- -o outfile : name for output file. If not specified, default value is <file>\_recomb.ped  
+ -o outfile : name for output file. If not specified, default value is file\_recomb.ped  
  
 
 
 Module Recomb :
 -------------
 This module produces reports on recombination events, errors and informative markers for each family in the dataset.  
- usage : java -cp NucFamTools.jar Recomb file.ped file.map [-o outfile -x -k N -err value(Kb) -valerr file.err]
+ usage : java -cp NucFamTools.jar Recomb file.ped file.map [-o outfile_pre -x -k N -err value(Kb) -valerr file.err]
 
 Mandatory arguments (2):
  file.ped : an input file created by PlinkToRecomb module  
  file.map : a map file (see http://pngu.mgh.harvard.edu/~purcell/plink/data.shtml#map)  
 
 Options :  
- -o outfile : name for output file. If not specified, default value is <file.ped>\_   
+ -o outfile_pre : prefix in name for output file. If not specified, default value is file.ped\_   
  -x : to perform the analysis on the X chromosome.  
  -k N : minimum number of informative markers allowed between recombination events. Below this number, double recombinants are ignored. Report files are generated for 0 to N. Default value is 2. For stringent analysis of crossovers, a value of 5 is suggested.  
  -err value : single markers causing a double recombinant are considered genotyping error, <value> is the max distance separating them from the nearest informative markers. Default value is to call as genotyping error all single markers causing a double recombinant.  
@@ -106,7 +106,7 @@ Mandatory argument (1):
  -l/-f file.recomb : a report file (-f) or a list of report files (-l) obtained from the Recomb module.
 
 Options :  
- -o outfile : name for output file. If not specified, default value is <file.recomb>.events  
+ -o outfile : name for output file. If not specified, default value is file.recomb.events  
  -fam excludeFamilies.txt : a list of families to exclude (one family per line). The ID for the families are as specified in Recomb input file. Default is none.  
  -i individuals.txt : individuals to include in remaining families (one individual per line). Default is all.  
  -chrfile : takes the chromosome number from the names of the input files. The chromosome number has to be given after 'chr' and followed by '\_' (eg. *chr22\_*) in the filenames. By default, the chr ids in the output is the rank of each file in the list provided with -l option, or, for a single file, the chr id is 1 (-f).   
@@ -124,7 +124,7 @@ Mandatory arguments (2):
  -l/-f file.recomb : a report file (-f) or a list of report files (-l) obtained from the Recomb module  
 
 Options :  
- -o outfile : name for output file. If not specified, default value is <file.recomb>.res
+ -o outfile : name for output file. If not specified, default value is file.recomb.res
 
 
 
