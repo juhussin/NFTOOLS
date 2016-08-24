@@ -10,12 +10,14 @@ java package to localise recombination events in genetic data
 
 
 INTRODUCTION
+------------
 
 NucFamTools.jar is a java package to localise recombination events in pedigree genetic data. The algorithm is a modified version of the one described in Coop et al. Science (2008). Details are presented in Hussin et al. PLoS Genetics (2011).
 
 
 
 INSTALLATION
+------------
 
 Options:
 
@@ -58,6 +60,7 @@ If you get an error, try recompiling the code with your current version of java 
 
 
 USAGE
+-----
 
 The package is a collection of modules. The typical command line to run each module is :
 
@@ -127,6 +130,7 @@ Options :
 
 
 RUNNING AN EXAMPLE
+------------------
 
 An example of a pipeline used to localise events in pedigree data is given in the perl script Recomb\\_script.pl  
 It performs the analysis on 2 chromosomes from 3 families (DATA/chr21\\_3fams.ped and DATA/chr22\\_3fams.ped)  
@@ -137,5 +141,6 @@ It performs the analysis on 2 chromosomes from 3 families (DATA/chr21\\_3fams.pe
 
 
 CONTACT INFORMATION
+-------------------
 
-These modules were developed in house and are provided to the community to help run analyses such as the ones presented in Hussin et al. PLoS Genetics (2011). For help or to report bugs/problems with the modules : please send email to ju.hussin@gmail.com
+For help or to report bugs/problems with the modules : please send email to ju.hussin@gmail.com
