@@ -76,7 +76,7 @@ Mandatory argument (1):
  file.ped : the 6 first columns of ped files are mandatory (see http://pngu.mgh.harvard.edu/~purcell/plink/data.shtml#ped), all delimited by tab characters. If generated with PLINK, use the --tab option in PLINK.  
 
 Options :  
- -o outfile : name for output file. If not specified, default value is <file>\\_recomb.ped  
+ -o outfile : name for output file. If not specified, default value is <file>\_recomb.ped  
  
 
 
@@ -90,7 +90,7 @@ Mandatory arguments (2):
  file.map : a map file (see http://pngu.mgh.harvard.edu/~purcell/plink/data.shtml#map)  
 
 Options :  
- -o outfile : name for output file. If not specified, default value is <file.ped>\\_   
+ -o outfile : name for output file. If not specified, default value is <file.ped>\_   
  -x : to perform the analysis on the X chromosome.  
  -k N : minimum number of informative markers allowed between recombination events. Below this number, double recombinants are ignored. Report files are generated for 0 to N. Default value is 2. For stringent analysis of crossovers, a value of 5 is suggested.  
  -err value : single markers causing a double recombinant are considered genotyping error, <value> is the max distance separating them from the nearest informative markers. Default value is to call as genotyping error all single markers causing a double recombinant.  
@@ -109,7 +109,7 @@ Options :
  -o outfile : name for output file. If not specified, default value is <file.recomb>.events  
  -fam excludeFamilies.txt : a list of families to exclude (one family per line). The ID for the families are as specified in Recomb input file. Default is none.  
  -i individuals.txt : individuals to include in remaining families (one individual per line). Default is all.  
- -chrfile : takes the chromosome number from the names of the input files. The chromosome number has to be given after 'chr' and followed by '\\_' (eg. *chr22\\_*) in the filenames. By default, the chr ids in the output is the rank of each file in the list provided with -l option, or, for a single file, the chr id is 1 (-f).   
+ -chrfile : takes the chromosome number from the names of the input files. The chromosome number has to be given after 'chr' and followed by '\_' (eg. *chr22\_*) in the filenames. By default, the chr ids in the output is the rank of each file in the list provided with -l option, or, for a single file, the chr id is 1 (-f).   
  -printk : prints in outfile the number of informative markers separating recombination events (before and after each one).  
 
 
@@ -132,10 +132,10 @@ Options :
 RUNNING AN EXAMPLE
 ------------------
 
-An example of a pipeline used to localise events in pedigree data is given in the perl script Recomb\\_script.pl  
-It performs the analysis on 2 chromosomes from 3 families (DATA/chr21\\_3fams.ped and DATA/chr22\\_3fams.ped)  
+An example of a pipeline used to localise events in pedigree data is given in the perl script Recomb\_script.pl  
+It performs the analysis on 2 chromosomes from 3 families (DATA/chr21\_3fams.ped and DATA/chr22\_3fams.ped)  
 
-> perl Recomb\\_script.pl
+> perl Recomb\_script.pl
 
 
 
