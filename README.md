@@ -17,6 +17,11 @@ NucFamTools.jar is a java package to localise recombination events in pedigree g
 
 INSTALLATION
 
+Options:
+
+1) Only .jar
+
+> wget https://github.com/juhussin/NFTOOLS/raw/master/NFTOOLS.tar.gz
 
 
 Latest version has been compiled with :
@@ -24,6 +29,7 @@ Latest version has been compiled with :
 java version "1.7.0_45"
 Java(TM) SE Runtime Environment (build 1.7.0_45-b18)
 Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
+
 
 
 
