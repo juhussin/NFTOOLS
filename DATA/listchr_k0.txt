@@ -1,0 +1,2 @@
+DATA/chr21_3fams_k0.recomb
+DATA/chr22_3fams_k0.recomb

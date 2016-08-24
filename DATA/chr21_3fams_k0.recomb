@@ -1,0 +1,108 @@
+LOADING FAMILY 1 ... 
+
+***** Data information for Family 3_1-4_1:
+* 4983 markers are found in data.
+* Loading parents ... done.
+* Father 3_1 presents 858 informative markers
+* Mother 4_1 presents 888 informative markers
+* Loading children ... 2 children found
+*****
+
+ERRORS (if ErrInterval is < 10000000) written in DATA/chr21_3fams_allErrors.txt
+
+	Total:	0 errors found in children for Family 3_1-4_1.
+
+CROSSOVERS (after removing genotyping errors) :
+
+Crossover events for child 1_1 in family 3_1-4_1 for paternal meiosis (3_1) with K = 0 :	0
+	markBefore	position1	position2	markAfter
+
+Crossover events for child 1_1 in family 3_1-4_1 for maternal meiosis (4_1) with K = 0 :	2
+	markBefore	position1	position2	markAfter
+	73	18238876	18317328	23
+	23	18483197	19034311	792
+
+Crossover events for child 2_1 in family 3_1-4_1 for paternal meiosis (3_1) with K = 0 :	0
+	markBefore	position1	position2	markAfter
+
+Crossover events for child 2_1 in family 3_1-4_1 for maternal meiosis (4_1) with K = 0 :	2
+	markBefore	position1	position2	markAfter
+	73	18238876	18317328	23
+	23	18483197	19034311	792
+
+LOADING FAMILY 2 ... 
+
+***** Data information for Family 5_2-6_2:
+* 4983 markers are found in data.
+* Loading parents ... done.
+* Father 5_2 presents 920 informative markers
+* Mother 6_2 presents 907 informative markers
+* Loading children ... 3 children found
+*****
+
+ERRORS (if ErrInterval is < 10000000) written in DATA/chr21_3fams_allErrors.txt
+
+	Total:	0 errors found in children for Family 5_2-6_2.
+
+CROSSOVERS (after removing genotyping errors) :
+
+Crossover events for child 32_2 in family 5_2-6_2 for paternal meiosis (5_2) with K = 0 :	1
+	markBefore	position1	position2	markAfter
+	482	34292358	34363111	438
+
+Crossover events for child 32_2 in family 5_2-6_2 for maternal meiosis (6_2) with K = 0 :	1
+	markBefore	position1	position2	markAfter
+	86	18317328	18415891	821
+
+Crossover events for child 34_2 in family 5_2-6_2 for paternal meiosis (5_2) with K = 0 :	1
+	markBefore	position1	position2	markAfter
+	896	46291134	46351936	24
+
+Crossover events for child 34_2 in family 5_2-6_2 for maternal meiosis (6_2) with K = 0 :	2
+	markBefore	position1	position2	markAfter
+	48	16672659	17130592	386
+	386	32831859	32871484	473
+
+Crossover events for child 35_2 in family 5_2-6_2 for paternal meiosis (5_2) with K = 0 :	1
+	markBefore	position1	position2	markAfter
+	326	28129476	28315678	594
+
+Crossover events for child 35_2 in family 5_2-6_2 for maternal meiosis (6_2) with K = 0 :	2
+	markBefore	position1	position2	markAfter
+	46	16629258	16668286	606
+	606	39152243	39170168	255
+
+LOADING FAMILY 3 ... 
+
+***** Data information for Family 7_3-8_3:
+* 4983 markers are found in data.
+* Loading parents ... done.
+* Father 7_3 presents 860 informative markers
+* Mother 8_3 presents 909 informative markers
+* Loading children ... 2 children found
+*****
+
+ERRORS (if ErrInterval is < 10000000) written in DATA/chr21_3fams_allErrors.txt
+
+	Total:	0 errors found in children for Family 7_3-8_3.
+
+CROSSOVERS (after removing genotyping errors) :
+
+Crossover events for child 10_3 in family 7_3-8_3 for paternal meiosis (7_3) with K = 0 :	2
+	markBefore	position1	position2	markAfter
+	484	34925088	35124645	151
+	151	38884994	38943969	225
+
+Crossover events for child 10_3 in family 7_3-8_3 for maternal meiosis (8_3) with K = 0 :	1
+	markBefore	position1	position2	markAfter
+	840	43594104	44015433	69
+
+Crossover events for child 9_3 in family 7_3-8_3 for paternal meiosis (7_3) with K = 0 :	2
+	markBefore	position1	position2	markAfter
+	484	34925088	35124645	151
+	151	38884994	38943969	225
+
+Crossover events for child 9_3 in family 7_3-8_3 for maternal meiosis (8_3) with K = 0 :	1
+	markBefore	position1	position2	markAfter
+	840	43594104	44015433	69
+

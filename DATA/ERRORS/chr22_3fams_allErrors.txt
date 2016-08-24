@@ -1,0 +1,5 @@
+MarkerNbE	Position	Fam
+2003	29536395	3_1-4_1
+4147	44244691	3_1-4_1
+MarkerNbE	Position	Fam
+498	19683328	5_2-6_2
